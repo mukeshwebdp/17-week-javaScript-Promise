@@ -20,3 +20,12 @@
 ### You need to write a function that takes a name as input and returns a promise that resolves with a greeting message. The function should greet the person using their name, with a message in the formate 'Hello, {name}!!' 
 
 ### for example, if the input to the function is 'Mithun', the promise should resolve with the string "Hello, Mithun!'
+
+## 6. Fetch results asynchronously
+### Write a function that asynchronously fetches data from an API [https://jsonplaceholder.typicode.com/todos/1] and logs the result to the console.
+
+## 7. Multiple requests.
+### Create an asynchronous function that retrieves data from two different API endpoints: "https://jsonplaceholder.typicode.com/tool/1" and "https://jsonplaceholder.typicode.com/posts/1". the first API returns a to-do task, whilethe second API provides post details. the function shuld combine the results from both APIs and log them as an object, where the keys are "todo" and "post", and the corresponding values, are the responses from the respective APIs.
+
+## 8. Get Data from API and Display it on the browser console.
+### Write  a JavaScrit program that uses the Fetch method to retrieve data from an API, and then logs the data to the console. fo example, tou could use the API at https://jsonplaceholder.typicode.com/post to retrieve a list of posts, and then display them to the browser console.
